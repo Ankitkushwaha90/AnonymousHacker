@@ -31,18 +31,18 @@ const App = () =>{
         <Switch>
           <Route exact path="/trynowcreateweb999/" component={Home} />
           <Route exact path="/" component={Home} />
-          <Route exact path="/html/document" component={HTML} />
-          <Route path="/css/introduction" component={CSS} />
-          <Route exact path="/javascript/introduction" component={JAVASCRIPT} />
-          <Route path="/php/introduction" component={PHP} />
-          <Route path="/c/introduction" component={C} />
-          <Route path="/python/introduction" component={PYTHON} />
+          <Route exact path="/trynowcreateweb999/html/document" component={HTML} />
+          <Route path="/trynowcreateweb999/css/introduction" component={CSS} />
+          <Route exact path="/trynowcreateweb999/javascript/introduction" component={JAVASCRIPT} />
+          <Route path="/trynowcreateweb999/php/introduction" component={PHP} />
+          <Route path="/trynowcreateweb999/c/introduction" component={C} />
+          <Route path="/trynowcreateweb999/python/introduction" component={PYTHON} />
           {/* html sublink start */}
-          <Route path="/html/introduction" component={introduction}/>
-          <Route path="/html/heading" component={Heading}/>
-          <Route path="/html/Paragraph" component={Paragraphs}/>
-          <Route path="/html/Textformatting" component={TextFormating}/>
-          <Route path="/html/Anchorsandhyperlinks" component={Anchorsandhyperlinks}/>
+          <Route path="/trynowcreateweb999/html/introduction" component={introduction}/>
+          <Route path="/trynowcreateweb999/html/heading" component={Heading}/>
+          <Route path="/trynowcreateweb999/html/Paragraph" component={Paragraphs}/>
+          <Route path="/trynowcreateweb999/html/Textformatting" component={TextFormating}/>
+          <Route path="/trynowcreateweb999/html/Anchorsandhyperlinks" component={Anchorsandhyperlinks}/>
           <Route path="hello.jpg" component="{Img}"/>
           {/* html sublink end */}
         </Switch>
