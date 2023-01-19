@@ -1,0 +1,14 @@
+.card{
+    width:15rem;
+}
+.workmenu li a{
+    text-decoration: none;
+}
+/* navsticy */
+.navsticy{
+    position: sticky !important;
+    top: 0px;
+    width: 100%;
+    z-index: 1;
+}
+/* navsticy */

@@ -1,0 +1,90 @@
+html{
+    scroll-behavior: smooth;
+}
+.scrolltop{
+    border: 3px solid white;
+    box-shadow: 0px 0px 10px white;
+} 
+
+
+.carousel-item img{
+    height: 93vh;
+}
+   
+
+.contactus{
+    width: 100%;
+    height: 70vh;
+    padding: 80px 0;
+    position: relative;
+    margin-bottom: 40px;
+}
+.contactus:before{
+    content:"";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(330deg, rgb(67, 106, 214) 50%, rgb(255, 255, 255) 0%);
+    z-index: -1;
+}
+.form-button button{
+    border: 1px solid #fff;
+    border-radius: 100px;
+    margin: 0 5px;
+    padding: 12px 35px;
+    outline: none;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    text-align: center;
+    background: transparent;
+}
+.form-button button:hover{
+    border: 1px solid #fff;
+    border-radius: 100px;
+    margin: 0 5px;
+    padding: 12px 35px;
+    outline: none;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    text-align: center;
+    background: transparent;
+}
+.form-button button:hover{
+    color: #50d1c0;
+}
+form:hover .form-button button{
+    background: #fff;
+    color: #50d1c0; 
+}
+::placeholder{
+    font-size: 0.85rem;
+}
+/* bg clippath */
+.bgclippath{
+    clip-path: polygon(0 46%, 49% 0, 100% 48%, 51% 100%);
+}
+/* bg clippath */
+
+/* btn start */
+
+/* #myBtn{
+    display: none;
+    position: fixed!important;
+    bottom: 20px!important;
+    right: 40px!important;
+    z-index: 99!important;
+    border: none;
+    color: black!important;
+    background-color: #00abff;
+} */
+.mybtncss{
+    position: fixed!important;
+    z-index: 999;
+}
+/* btn end */

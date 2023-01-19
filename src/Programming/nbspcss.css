@@ -1,0 +1,34 @@
+.zindexnav{
+    z-index: 10!important;
+}
+.zindexsub{
+    z-index: 1!important;
+}
+.tttt{
+    font:bolder!important;
+    font-size: 17px;
+}
+@media (mix-width: 991px) {
+    .showhidden{
+        display: none!important;
+    }
+    
+}
+@media (min-width: 991px) {
+    .showhiddenmax{
+        display: none!important;
+    }
+    .responsivecontainer{
+        margin: 50px!important;
+    }
+}
+@media (max-width: 500px) {
+    .messageboxhidden{
+        display: none;
+    }
+}
+@media (min-width: 491px) {
+    .responsivecontainer{
+        margin: 20px!important;
+    }
+}
